@@ -1,0 +1,29 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://schoolqigong.ru
+title: Центр Цигун
+email: contact@schoolqigong.ru
+author: Наталья Дубинина
+description: > # "Занятия цигун в центре Цигун Натальи Дубининой.
+ В Центре проводятся семинары цигун и регулярные поддерживающие занятия цигун - практики Синг Шен Джуан, Ню Дан Гонг, Шен Джен Гонг и другие.
+telephone: +7(495)790-45-92
+copyright: 'Copyright &copy; 2015 Qigong. All Rights Reserved.'
+credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: facebook
+    url: http://www.facebook.com/CentrCigunNataliDubininoj
