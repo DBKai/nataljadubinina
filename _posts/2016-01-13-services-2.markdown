@@ -1,0 +1,14 @@
+---
+layout: default
+img: map.png
+category: Services
+title: Контакты
+description: |
+---
+
+Москва, м. Чистые пруды, Сретенский бульвар или Тургеневская<br />
+ул. Мясницкая, д.21/8, стр.5<br />
+2 подъезд, 1 этаж, офис 22<br />
+Email: contact@schoolqigong.ru<br />
+Сайт: [http://schoolqigong.ru](http://schoolqigong.ru)<br />
+Тел.: +7(495)790-45-92<br />
