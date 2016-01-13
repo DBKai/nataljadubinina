@@ -1,8 +1,8 @@
-<section id="services">
 <!-- Page Content -->
 {% for post in site.posts reversed %}
-  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if thecycle == 'odd' %}
+{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+{% if thecycle == 'odd' %}
+<section id="seminar">
     <div class="content-section-a">
 
         <div class="container">
@@ -24,8 +24,11 @@
 
     </div>
     <!-- /.content-section-a -->
-    {% else %}
+</section>
 
+{% else %}
+
+<section id="contact">
     <div class="content-section-b">
 
         <div class="container">
@@ -38,7 +41,7 @@
                     <div class="lead">{{ post.content }}</div>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                    <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
                 </div>
             </div>
 
@@ -47,6 +50,7 @@
 
     </div>
     <!-- /.content-section-b -->
-    {% endif %}
-{% endfor %}
 </section>
+{% endif %}
+{% endfor %}
+
