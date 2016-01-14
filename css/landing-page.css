@@ -166,3 +166,11 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.call-me a{
+    color: #ff5b49;
+}
+
+.call-me a:hover{
+    color: #ff885a;
+}
