@@ -1,29 +1,36 @@
 <section id="callback">
-	<div class="banner">
-		<div class="container">
+    <div class="banner">
+        <div class="container">
 
-			<div class="row">
-				<div class="col-lg-6">
-					<h2>Оставьте свой номер телефона в форме и мы Вам перезвоним.</h2><br />
-				</div>
-				<div class="col-lg-6">
-					<form style="font-size: 24px;" action="//formspree.io/ndqigong@gmail.com" method="post">
-						<div>
-							<span style="width: 60px; display: block; float: left;">Имя</span><input type="text" name="name" style="color: black">
-						</div>
-						<br />
-						<div>
-							<span style="width: 60px; display: block; float: left;">+7</span><input type="tel" name="_replyto" style="color: black">
-						</div>
-						<br />
-						<input style="width: 334px; color: black;" type="submit" value="Позвонить" style="color: black">
-					</form>
-				</div>
-			</div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Оставьте свой номер телефона в форме и мы Вам перезвоним.</h2><br/>
+                </div>
+                <div class="col-lg-6">
+                    <form style="font-size: 24px;" action="//formspree.io/ndqigong@gmail.com" method="post"
+                          onsubmit="yaCounter34664500.reachGoal('SubmitTel'); return true;">
+                        <div style="width: 334px; margin: 0 auto; display: block;">
+                            <div>
+                                <span style="width: 60px; display: block; float: left;">Имя</span>
+                                <input type="text" name="name" style="color: black">
+                            </div>
+                            <br/>
+                            <div>
+                                <span style="width: 60px; display: block; float: left;">+7</span>
+                                <input type="tel" name="_replyto" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                                       placeholder="922-222-22-22" style="color: black">
+                            </div>
+                            <br/>
+                            <input style="width: 100%; color: black;" type="submit" value="Позвонить"
+                                   style="color: black">
+                        </div>
+                    </form>
+                </div>
+            </div>
 
-		</div>
-		<!-- /.container -->
+        </div>
+        <!-- /.container -->
 
-	</div>
+    </div>
 </section>
 <!-- /.banner -->
